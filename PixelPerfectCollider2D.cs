@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using System;
 
+#if UNITY_EDITOR
 [RequireComponent(typeof(PolygonCollider2D))]
 public class PixelPerfectCollider2D : MonoBehaviour
 {
@@ -196,3 +197,5 @@ public class PixelColider2DEditor : Editor
         base.OnInspectorGUI();
     }
 }
+
+#endif
