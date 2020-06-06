@@ -7,7 +7,7 @@ I added two lines;
 And
 #endif
 
-before and after the first function.
+before and after the first and last function.
 
 This excludes the code from being built which resolves any errors when building.
 The code still works in the editor which is exactly what we want.
